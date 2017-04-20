@@ -11,6 +11,7 @@ def get_images_and_labels(paths):
         labels_all.extend(labels)
     return images_all, labels_all
 
+
 def get_images_and_labels_one(path):
     folders = os.listdir(path)
     images = []
