@@ -41,6 +41,11 @@ from sklearn import metrics
 from scipy.optimize import brentq
 from scipy import interpolate
 
+# import pydevd
+#
+# pydevd.settrace('183.172.49.113', port=10000, stdoutToServer=True, stderrToServer=True)
+
+
 def main(args):
 
     with tf.Graph().as_default():

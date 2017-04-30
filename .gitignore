@@ -1,6 +1,7 @@
 # system
 models/
 logs/
+src/joint_bayesian/*.npy
 
 led / optimized / DLL files
 __pycache__/

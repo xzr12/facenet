@@ -1,3 +1,4 @@
+# encoding=utf-8
 import os
 import numpy as np
 
@@ -9,6 +10,7 @@ def get_images_and_labels(paths):
         images, labels = get_images_and_labels_one(i)
         images_all.extend(images)
         labels_all.extend(labels)
+        print len(images)
     return images_all, labels_all
 
 
